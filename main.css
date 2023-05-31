@@ -1,0 +1,159 @@
+html {
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    max-width: 97%;
+    height: 100%;
+    }
+header {
+    padding-left: 9.5vw;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    z-index: 3;
+    margin-top: -8px;
+    height: 7vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-size: 1.4rem;
+    position:relative;
+    font-family: "Suisseintl", arial, sans-serif, "Space";
+    left: 30px;
+    margin: 10px;
+}
+
+a:hover {
+    color:#3200bc;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.realPosition {
+    color:#3200bc;
+}
+
+.naming {
+    padding-left: 18vw;
+    position: relative;
+    top: -3.5vw;
+    color: #3200bc;
+    font-family: HeliosExtC;
+}
+
+.big-number {
+    position: relative;
+    right: -59vw;
+    width: 11vw;
+    top: -6vw;
+    color: #3200bc;
+    font-size: 1.5vw;
+}
+
+.content-1 {
+    margin: 5% 13% 5% 13%;
+    border: 1px #3200bc solid;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    margin-top: 14vw;
+}
+
+.number-1 {
+    width: 8%;
+    color: white;
+    background-color: #3200bc;
+    text-align: right;
+    font-size: 50px;
+    left: 79%;
+    position: relative;
+    top: 13vw;
+}
+
+.number-2 {
+    width: 8%;
+    color: white;
+    background-color: #3200bc;
+    text-align: right;
+    font-size: 50px;
+    left: 79%;
+    position: relative;
+    top: 3vw;
+}
+
+.content-2 {
+    margin: 5% 13% 5% 13%;
+    border: 1px #3200bc solid;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    margin-top: 4vw;
+}
+
+.text {
+    color: black;
+    font-size: 24px;
+}
+
+footer {
+    background-color: #cdcdcd;
+    position: relative;
+    top: 2vw;
+    width: 103.1%;
+    font-family: "Suisseintl", arial, sans-serif, "Space";
+    color: black;
+    text-align: center;
+    padding: 2% 0 2% 0;
+    margin-left: -8px;
+}
+
+.header {
+    position: absolute;
+    top: 123px;
+    left: 700px;
+    font-size: 45px;
+    color: #3200bc;
+}
+
+#average {
+    width: 22vw;
+    color: #3200bc;
+    top: 15.2vw;
+    left: 39vw;
+    position: relative;
+    font-size: 1.5vw;
+    font-family: "Suisseintl", arial, sans-serif, "Space";
+    text-align: center;
+}
+
+#minValue {
+    width: 22vw;
+    color: #3200bc;
+    top: 12.6vw;
+    left: 11.84vw;
+    position: relative;
+    font-size: 1.5vw;
+    font-family: "Suisseintl", arial, sans-serif, "Space";
+    text-align: center;
+}
+
+#maxValue {
+    width: 22vw;
+    color: #3200bc;
+    top: 10vw;
+    left: 64.7vw;
+    position: relative;
+    font-size: 1.5vw;
+    font-family: "Suisseintl", arial, sans-serif, "Space";
+    text-align: center;
+    margin-bottom: -5vw;
+}
